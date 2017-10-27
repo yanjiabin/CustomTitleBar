@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.cnsunrun.customtitlebar.MainActivity">
+
+    <com.yanjiabin.costomtitlebarlib.CustomTitlebar
+        app:title_background="#0094ff"
+        app:title_textColor="#fff"
+        app:title_textSize="12sp"
+        app:left_button_image="@mipmap/icon_back"
+        app:right_button_text="完成"
+        app:title_text="标题"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <com.yanjiabin.costomtitlebarlib.CustomTitlebar
+        app:title_background="#0f0"
+        app:title_textColor="#fff"
+        app:title_textSize="12sp"
+        app:title_text="标题"
+        app:left_button_image="@mipmap/icon_back"
+        app:right_button_image="@mipmap/img_currency_selected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.yanjiabin.costomtitlebarlib.CustomTitlebar
+        app:title_background="#ff0666"
+        app:title_textColor="#fff"
+        app:title_textSize="12sp"
+        app:title_text="标题"
+        app:left_button_image="@mipmap/icon_back"
+        app:right_button_text="完成"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.yanjiabin.costomtitlebarlib.CustomTitlebar
+        app:title_textSize="12sp"
+        app:title_text="标题"
+        app:left_button_image="@mipmap/icon_back"
+        app:right_button_text="完成"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
