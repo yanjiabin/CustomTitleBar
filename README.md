@@ -1,9 +1,5 @@
 # CustomTitleBar
 一款项目中常用的标题样式
-# CustomTitileBar
-通用Android标题栏控件
-
-
 ## 主要功能：
 - 支持左、右按钮
 - 支持按钮点击背景
@@ -18,13 +14,25 @@
 
  [ ![Download](https://api.bintray.com/packages/jxnk25/maven/CommonTitleBar/images/download.svg) ](https://bintray.com/jxnk25/maven/CommonTitleBar/_latestVersion)
 
-#### 1.添加Gradle依赖
+#### 1.Add it in your root build.gradle at the end of repositories:
 
 ```
-dependencies {
-    compile 'compile 'com.xhb:commontitlebar:latestVersion'//将latestVersion替换成上面最新的版本号
-}
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+	
 ```
+
+####  Step 2. Add the dependency
+```
+  dependencies {
+           compile 'com.github.yanjiabin:CustomTitleBar:1.0'
+   }
+```
+
 
 #### 2.在布局文件中添加
 
