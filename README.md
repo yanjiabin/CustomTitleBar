@@ -37,7 +37,7 @@
 #### 2.在布局文件中添加
 
 ```
-    <com.stx.xhb.commontitlebar.CustomTitlebar
+    <com.yanjiabin.costomtitlebarlib.CustomTitlebar
         android:id="@+id/title3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
